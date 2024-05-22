@@ -154,12 +154,8 @@ ul, ol {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
     white-space: nowrap;
-    clip-path: inset(100%);
+    clip-path: inset(50%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
@@ -168,7 +164,7 @@ ul, ol {
     gap: 24px;
 }
 
-.activity-list {
+.acctivity-list {
     flex-basis: calc((100% - 72px) / 4);
     display: flex;
     align-items: flex-start;
@@ -299,7 +295,7 @@ gap: 8px;
     color: #f4f4fd;
 }
 .navigation-logotip {
-    display: inline;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
